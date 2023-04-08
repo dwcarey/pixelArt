@@ -12,6 +12,8 @@ for (let i = sideLength; i>0; i--) {
         gridSquareChild.className = "gridSquare gridSquareChild";
         gridSquareChild.style.width = (widthHeight-2)+'px';
         gridSquareChild.style.height = (widthHeight-2)+'px';
+        gridSquareChild.addEventListener('mousedown', function() {
+        gridSquareChild.style.backgroundColor = "black";})
         gridSquare.appendChild(gridSquareChild);
     }
 }

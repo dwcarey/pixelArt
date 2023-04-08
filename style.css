@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gridContainer{
+    margin: 32px;
+    width: 516px;
+    min-width: fit-content;
+    height: 516px;
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.gridSquare {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
